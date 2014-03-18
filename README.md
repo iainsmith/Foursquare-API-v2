@@ -15,7 +15,7 @@ constract NSDictionary with parameters on your own. This library provide concret
     + (NSOperation *)userGetDetail:(NSString *)userID
                           callback:(Foursquare2Callback)callback;
 
-Don't be scary of NSOperation:). Almost all the time you don't need to use them. But it could be very helpfull
+Don't be scared of NSOperation :). Almost all the time you don't need to use them. But it could be very helpfull
 if you want to have more control and cancel operations. Checkout SearchViewController.m as example.
 
 ###Features
